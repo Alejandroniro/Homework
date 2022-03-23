@@ -1,0 +1,57 @@
+
+
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.topnav #myLinks{
+  display: none;
+}
+.topnav a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon{
+background: black;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.active{
+  background-color: #04AA6D;
+  color: white;
+}
+.card{
+  width: 140px;
+  height: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+  transition: 0.3s;
+  border-radius: 5px;
+  overflow: ;
+}
+.card img{
+  transition: transform .5 ease;
+}
+.card:hover img{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
+  transform: scale(1.2);
+}
+.container{
+  width: 140px;
+  padding: 20px 5px;
+}
+.Song1{
+  border-radius: 5px 5px 0 0;
+}
+#more {
+  display: none;
+}
